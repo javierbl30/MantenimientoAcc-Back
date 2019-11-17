@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="uesocc.edu.sv.ingenieria_mantenimiento-acc_war_1.0-SNAPSHOTPU" transaction-type="JTA">
+    <jta-data-source>jdbc/mant</jta-data-source>
+    <class>Entity.Calendario</class>
+    <class>Entity.Herramientas</class>
+    <class>Entity.Inventario</class>
+    <class>Entity.Materiales</class>
+    <class>Entity.Ordencompra</class>
+    <class>Entity.Ordentrabajo</class>
+    <class>Entity.Pasos</class>
+    <class>Entity.Pem</class>
+    <class>Entity.Procedimiento</class>
+    <class>Entity.Procedimientosmantenimiento</class>
+    <class>Entity.Proveedores</class>
+    <class>Entity.Rol</class>
+    <class>Entity.Solicitudordentrabajo</class>
+    <class>Entity.Status</class>
+    <class>Entity.Usuarios</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties/>
+  </persistence-unit>
+</persistence>
