@@ -53,7 +53,7 @@ Portions Copyright [2016-2018] [Payara Foundation and/or its affiliates]
 <property name="URL" value="jdbc:postgresql://ec2-107-21-98-89.compute-1.amazonaws.com:5432/d8da1a2ao66vs1"/>
 <property name="driverClass" value="org.postgresql.Driver"/>
 </jdbc-connection-pool>
-<jdbc-resource pool-name="mantenimientopool" jndi-name="jdbc/mant"/>
+<jdbc-resource pool-name="jdbc/mant" jndi-name="jdbc/mant"/>
         <context-service description="context service" jndi-name="concurrent/__defaultContextService" object-type="system-all"></context-service>
         <managed-executor-service maximum-pool-size="200" core-pool-size="2" long-running-tasks="true" keep-alive-seconds="300" hung-after-seconds="300" task-queue-capacity="20000" jndi-name="concurrent/__defaultManagedExecutorService" object-type="system-all"></managed-executor-service>
         <managed-scheduled-executor-service core-pool-size="2" long-running-tasks="true" keep-alive-seconds="300" hung-after-seconds="300" jndi-name="concurrent/__defaultManagedScheduledExecutorService" object-type="system-all"></managed-scheduled-executor-service>
