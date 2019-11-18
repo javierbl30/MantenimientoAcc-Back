@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Context>
-  <Resource name="jdbc/mant" type="javax.sql.DataSource" maxActive="100" maxIdle="30" maxWait="10000" url="postgres://mexzdqvrqpchpj:358c2c9062904753058e1ce04a583c8ef6183ae8d2c1f7a4b7fa01b856b59367@ec2-107-21-98-89.compute-1.amazonaws.com:5432/d8da1a2ao66vs1" driverClassName="	
-org.postgresql.Driver" username="mexzdqvrqpchpj" password="358c2c9062904753058e1ce04a583c8ef6183ae8d2c1f7a4b7fa01b856b59367" />
-</Context>
