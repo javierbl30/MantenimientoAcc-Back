@@ -50,6 +50,7 @@ Portions Copyright [2016-2018] [Payara Foundation and/or its affiliates]
       <property name="password" value="358c2c9062904753058e1ce04a583c8ef6183ae8d2c1f7a4b7fa01b856b59367"/>
       <property name="databaseName" value="d8da1a2ao66vs1"/>
       <property name="portNumber" value="5432"/>
+      <property name="sslmode" value="require"/>
       <property name="URL" value="jdbc:postgresql://ec2-107-21-98-89.compute-1.amazonaws.com:5432/d8da1a2ao66vs1&sslmode=require"/>
       <property name="driverClass" value="org.postgresql.Driver"/>
     </jdbc-connection-pool>
