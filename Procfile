@@ -1,1 +1,1 @@
-web: java -jar target/mantenimiento-acc-1.0-SNAPSHOT.war --domainConfig domain.xml
+web: java -jar target/mantenimiento-acc-1.0-SNAPSHOT.war --context domain.xml
