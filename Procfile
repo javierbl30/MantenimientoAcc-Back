@@ -1,1 +1,1 @@
-web: java -jar lib/payara-micro-5.193.jar --deploy target/mantenimiento-acc-1.0-SNAPSHOT.war --port $PORT --domainConfig domain.xml
+web: java -jar lib/payara-micro-5.193.jar --deploy target/mantenimiento-acc-1.0-SNAPSHOT.war --port $PORT --domainConfig domain.xml --addJars lib/postgresql-42.2.8.jar
